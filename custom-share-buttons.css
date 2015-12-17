@@ -1,0 +1,46 @@
+.custom-share-button {
+	display: inline-block;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: normal;
+	text-decoration: none;
+}
+	.custom-share-button .share-text,
+	.custom-share-button .share-count {
+		display: inline-block;
+		padding-top: 0.9em;
+		padding-bottom: 0.9em;
+	}
+
+	.custom-share-button .share-text {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.custom-share-button .share-count {
+		background-color: white;
+		background-color: rgba(255,255,255,0.15);
+		padding-left: 0.7em;
+		padding-right: 0.7em;
+	}
+
+.facebook-custom-share-button {
+	background-color: #3b5998;
+	color: white;
+}
+
+.twitter-custom-share-button {
+	/* Twitter's brand color #55ACEE on white is 
+		not accessible in high contrast mode */
+	background-color: #2279BB;
+	color: white;
+}
+
+.linkedin-custom-share-button {
+	/* Linkedin's brand color #0077B5 is now too 
+		close to our twitter color above, so we
+		try and darken it a bit */
+	background-color: #005E9C;
+	color: white;
+}
