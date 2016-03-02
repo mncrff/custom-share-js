@@ -1,15 +1,24 @@
 <!DOCTYPE>
 <html>
 	<head>
+		<meta property="og:url"           content="http://www.your-domain.com/your-page.html" />
+		<meta property="og:type"          content="website" />
+		<meta property="og:title"         content="Your Website Title" />
+		<meta property="og:description"   content="Your description" />
+		<meta property="og:image"         content="http://www.your-domain.com/path/image.jpg" />
+
+		<link rel="canonical" href="http://example.com/test.html">
+
 		<link href="custom-share-buttons.css" rel="stylesheet">
 	</head>
 
 	<body>
-		<a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.google.com" class="custom-share-button" data-type="facebook" data-share-url="http://www.microsoft.com" data-show-count="true">Share on Facebook</a>
+		<a href="https://www.facebook.com/sharer/sharer.php" class="custom-share-button">Share on Facebook</a>
+		<!-- <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.google.com" class="custom-share-button" data-type="facebook" data-share-url="http://www.microsoft.com">Share on Facebook</a> -->
 
-		<a href="https://twitter.com/intent/tweet?text=Hello%20world" class="custom-share-button" data-type="twitter">Share on Twitter</a>
+		<a href="https://twitter.com/share?text=Hello%20world" class="custom-share-button">Share on Twitter</a>
 
-		<a href="https://www.linkedin.com/shareArticle" class="custom-share-button" data-type="linkedin" data-share-url="http://www.microsoft.com" data-show-count="true">Share on LinkedIn</a>
+		<a href="https://www.linkedin.com/shareArticle" class="custom-share-button" data-share-url="http://www.microsoft.com" data-show-count="true">Share on LinkedIn</a>
 
 		<script src="custom-share-buttons.js"></script>
 	</body>
